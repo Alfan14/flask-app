@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #1b1b1b;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: "Poppins", Arial, Helvetica, sans-serif;
+}
+
+.sidebar {
+    display: inline;
+    height: 100vh;
+    width: 30%;
+    position: fixed;    
+    background-color: #d6b086;
+}
+
+a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #1b1b1b;
+}
+
+#wtf {
+    margin: 0 2.5em ;
+}
+
+#info {
+    margin: 1.5em auto;
+    font-size: 30pt;
+}
+
+#profil {
+    margin: 1.5em auto;
+    font-size: 15pt;
+}
+
+#beranda {
+    margin: 1.5em auto;
+    font-size: 15pt;
+}
+
+#keluar {
+    margin: 1.5em auto;
+    font-size: 15pt;
+}
+
+.main, .like {
+    margin: 4em 4em 4em 26em;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 4em;
+    align-content: center;
+    color: #ffffff;
+}
+
+.bio {  
+    display: flex;
+    flex-shrink: 1;
+    align-items: flex-start;
+}
+
+#foto-profil {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+    border-radius: 100%;
+    margin: 0 auto;
+}
+
+.name {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+
+#nama {
+    font-size: 25pt;
+}
+
+#telp {
+    font-weight: 300;
+}
+
+#email {
+    font-weight: 300;
+}
+
+.location {
+    margin: 0 4em;
+    display: flex;
+    align-items: center;
+}
+
+#gmaps {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    margin: 1em;
+}
+
+#alamat {
+    font-weight: 300;
+}
+
+.bayar {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+#payment {
+    font-weight: 300;
+}
+
+#dana {
+    margin: 1em;
+    width: 120px;
+    height: auto;
+}
+
+#gopay {
+    margin: 1em;
+    width: 200px;
+    height: auto;
+}
+
+#edit-page {
+    margin-top: 100vh;
+}
